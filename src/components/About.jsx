@@ -4,7 +4,7 @@ export function About() {
 
     const age = new Date().getFullYear() - 2004;
 
-
+// ....
     return (
         <section id="about" className="flex flex-col gap-5">
             <Line className="border-t border-gray-500 " />
