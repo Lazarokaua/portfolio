@@ -5,7 +5,7 @@ import { Nav } from "./Nav"
 export function Header() {
     return (
         <>
-            <header className="bg-white text-gray-300 px-6 py-4">
+            <header className="bg-main px-6 py-4">
                 <div className="flex justify-between items-center max-w-5xl mx-auto">
                     {/* <!-- Nome --> */}
                      <a href="#"><img src={logo} className="w-28"/></a>

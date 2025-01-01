@@ -15,9 +15,9 @@ export function Nav() {
     return (
         <>
             <nav className="flex space-x-4 text-sm">
-                <a href="#" className="hover:underline">{navTexts[language].contact}</a>
-                <a href="#" className="hover:underline">{navTexts[language].projetcs}</a>
-                <a href="#" className="hover:underline">{navTexts[language].about}</a>
+                <a href="#" className="hover:underline font-suisse">{navTexts[language].contact}</a>
+                <a href="#" className="hover:underline font-suisse">{navTexts[language].projetcs}</a>
+                <a href="#" className="hover:underline font-suisse">{navTexts[language].about}</a>
 
                 <button title="Click to change language" onClick={() => {
                     setLanguage((e) => (e === "en" ? "pt" : "en"))
