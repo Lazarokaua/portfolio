@@ -4,4 +4,5 @@
 
 body {
     @apply bg-main;
+    @apply font-suisse;
 }
