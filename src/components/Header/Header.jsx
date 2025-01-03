@@ -1,7 +1,7 @@
 import logo from "../../assets/logo_lk-removebg-preview 1.png"
 import "../../styles.css"
 import { Nav } from "./Nav"
-import { Line } from "../Line"
+import { Line } from "../Utils/Line"
 
 export function Header() {
     return (

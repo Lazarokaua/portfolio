@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Line } from "./Line"
+import { Line } from "../Utils/Line"
 
 export function About() {
 
