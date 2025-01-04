@@ -5,6 +5,7 @@ import { Tech } from './components/Technologies/Tech'
 import { Project } from './components/Projects/Project'
 import { Why } from './components/WorkWithMe/Why'
 import { Footer } from './components/Footer/Footer'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Project />
       <Why />
       <Footer />
+      <SpeedInsights />
     </>
   )
 }
