@@ -6,7 +6,7 @@ import figma from "../../assets/figma-brands-solid.svg"
 import react from "../../assets/react-brands-solid.svg"
 import tailwind from "../../assets/TAILWIND.svg"
 import mongoDB from "../../assets/mongoDB.svg"
-import { Line } from "../Line"
+import { Line } from "../Utils/Line"
 
 
 export function Tech(){

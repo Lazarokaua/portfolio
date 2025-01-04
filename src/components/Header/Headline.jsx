@@ -1,7 +1,7 @@
-import { Profile } from "../Profile"
-import { Typing } from "../Typing"
-import { About } from "../About"
-import { Line } from "../Line"
+import { Profile } from "../Profile/Profile"
+import { Typing } from "../Profile/Typing"
+import { About } from "../About/About"
+import { Line } from "../Utils/Line"
 
 
 export function Headline(){
