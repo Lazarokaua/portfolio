@@ -5,54 +5,59 @@ import nlw from "../../assets/nlw.png"
 import codigoCerto from "../../assets/codigoCerto.png"
 import chatGPT from "../../assets/chatGPT.png"
 import simmonGame from "../../assets/simmoGame.png"
+import { translations } from "../Utils/Translation"
+import { useLanguage } from "../Utils/LanguageContext"
 
 export function Project() {
+
+    const { language } = useLanguage()
+    const projectsTexts = translations[language].projects
     return (
         <>
-        <h2 className="font-suisse font-bold text-center text-2xl tracking-wide">Projects</h2>
+            <h2 className="font-suisse font-bold text-center text-2xl tracking-wide">{projectsTexts.title}</h2>
             <section id="projects" className="px-6 py-4 lg:grid lg:grid-cols-3">
 
                 {/* ProjectCard */}
                 <ProjectCard
                     url="https://spotify-clone-five-neon.vercel.app/"
                     image={spotify}
-                    title="Clone Spotify"
-                    description="Projeto em Front-end da imersão front-end da alura #ImersãoFrontEnd #Alura."
+                    title={projectsTexts.titleProject1}
+                    description={projectsTexts.description1}
                 />
 
                 <ProjectCard
-                    url="https://clone-github-six.vercel.app/"
+                    url="https://spotify-clone-five-neon.vercel.app/"
                     image={gitHub}
-                    title="Clone GitHub Login"
-                    description="Projeto Desenvolvido com objetivo de aprender o básico de HTML e CSS."
+                    title={projectsTexts.titleProject2}
+                    description={projectsTexts.description2}
                 />
 
                 <ProjectCard
-                    url="https://nlw-expert-react-6mblnxt4w-lazarokauas-projects.vercel.app/"
+                    url="https://spotify-clone-five-neon.vercel.app/"
                     image={nlw}
-                    title="NLW Expert notes"
-                    description="Essa aplicação foi desenvolvida durante o NLW Experts da Rocketseat utilizando React, TypeScript, Tailwind e a SpeechRecognition API."
+                    title={projectsTexts.titleProject3}
+                    description={projectsTexts.description3}
                 />
 
                 <ProjectCard
-                    url="https://trilha-front-end-jr-jun-15-k44k.vercel.app/"
+                    url="https://spotify-clone-five-neon.vercel.app/"
                     image={codigoCerto}
-                    title="Trilha Inicial Front-End Jr | Codigo Certo Coders"
-                    description="Este projeto tem como objetivo criar uma página web onde os candidatos podem se apresentar, compartilhar seus gostos pessoais e explicar por que desejam fazer parte da comunidade Codigo Certo Coders e participar de projetos voluntários."
+                    title={projectsTexts.titleProject4}
+                    description={projectsTexts.description4}
                 />
 
-                <ProjectCard 
-                    url="https://clone-chat-gpt-chi.vercel.app/"
+                <ProjectCard
+                    url="https://spotify-clone-five-neon.vercel.app/"
                     image={chatGPT}
-                    title="Clone-ChatGPT"
-                    description="Este projeto é um clone da interface do ChatGPT, desenvolvido para demonstrar habilidades em desenvolvimento web front-end. O projeto recria a aparência visual e o layout da famosa interface de chat da OpenAI."
+                    title={projectsTexts.titleProject5}
+                    description={projectsTexts.description5}
                 />
 
-                <ProjectCard 
-                url="https://simon-game-xi-ten.vercel.app/"
-                image={simmonGame}
-                title="Bem-vindo ao Simon-game"
-                description="jogo da memória com cores em JavaScript!"
+                <ProjectCard
+                    url="https://spotify-clone-five-neon.vercel.app/"
+                    image={simmonGame}
+                    title={projectsTexts.titleProject6}
+                    description={projectsTexts.description6}
                 />
             </section>
         </>
