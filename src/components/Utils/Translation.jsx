@@ -34,7 +34,11 @@ export const translations = {
             title: "So why work with me?", paragraph1: "I am passionate about technology, focused on constantly learning and growing. I have already developed practical projects on the front-end with React and JavaScript, and I am expanding my skills to the back-end, always seeking to apply good practices and deliver efficient solutions.", paragraph2: "I am committed, adaptable and driven by challenges. More than a developer, I am someone who seeks to add value to the team and evolve together with the team. If you are looking for dedication and the desire to make a difference, rest assured, you just found it."
         },
         footer: {
-            title: "Let's talk?", msg: "If you want to ask me any questions, feel free to connect with me on any of my networks!", hello: "Say hello on ", span: "LinkedIn"
+            title: "Let's talk?",
+            msg: "If you want to ask me any questions, feel free to connect with me on any of my networks!",
+            hello: "Say hello on ",
+            span: "LinkedIn",
+            copyright: "Made with 💓 by Lázaro Kauã"
         },
     },
     pt: {
@@ -80,7 +84,11 @@ export const translations = {
             title: "Então, por que trabalhar comigo?", paragraph1: "Sou apaixonado por tecnologia, focado em aprender e crescer constantemente. Já desenvolvi projetos práticos no front-end com React e JavaScript, e estou expandindo minhas habilidades para o back-end, sempre buscando aplicar boas práticas e entregar soluções eficientes.", paragraph2: "Sou comprometido, adaptável e movido por desafios. Mais do que um desenvolvedor, sou alguém que busca agregar valor ao time e evoluir junto com a equipe. Se você procura dedicação e vontade de fazer a diferença, fique tranquilo(a), acabou de encontrar."
         },
         footer: {
-            title: "Vamos conversar?", msg: "Se você quiser me fazer alguma pergunta, fique à vontade para se conectar comigo em qualquer uma das minhas redes!", hello: "Diga olá: ", span: "LinkedIn"
+            title: "Vamos conversar?",
+            msg: "Se você quiser me fazer alguma pergunta, fique à vontade para se conectar comigo em qualquer uma das minhas redes!",
+            hello: "Diga olá no ",
+            span: "LinkedIn",
+            copyright: "Feito com 💓 por Lázaro Kauã"
         },
     },
 };

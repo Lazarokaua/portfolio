@@ -4,19 +4,18 @@ import { translations } from "../Utils/Translation";
 import { useLanguage } from "../Utils/LanguageContext";
 
 export function Typing() {
-    const el = useRef(null); // Cria uma referência ao elemento
+    const el = useRef(null);
     const typed = useRef(null);
 
-    const { language } = useLanguage(); // Obtém o idioma atual
-    const typingTexts = translations[language].typing; // Textos baseados no idioma
+    const { language } = useLanguage();
+    const typingTexts = translations[language].typing;
 
     useEffect(() => {
-        // Configuração do Typed.js
         typed.current = new Typed(el.current, {
             strings: [
                 "Lázaro Kauã", 
                 "Dev Front-End", 
-                typingTexts.emphasis // Usa o texto traduzido
+                typingTexts.emphasis
             ],
             typeSpeed: 50,
             backSpeed: 25,
@@ -24,15 +23,15 @@ export function Typing() {
         });
 
         return () => {
-            typed.current.destroy(); // Destruir na desmontagem
+            typed.current.destroy();
         };
-    }, [language]); // Recria o efeito quando o idioma muda
+    }, [language]);
 
     return (
-        <div className="flex py-4  mb-8 justify-center">
-            <h1 className="text-2xl font-bold font-suisse">
-                <span>{typingTexts.toBe} </span>
-                <span ref={el} className="text-detail"></span> {/* Elemento vinculado ao Typed.js */}
+        <div className="flex py-4 mb-8 md:mb-0 md:py-8 lg:py-12 md:items-center md:h-full transition-all duration-300">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold font-suisse transition-all duration-300">
+                <span className="block md:mb-2">{typingTexts.toBe}</span>
+                <span ref={el} className="text-detail"></span>
             </h1>
         </div>
     );

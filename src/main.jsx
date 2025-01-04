@@ -1,24 +1,17 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { Header } from './components/Header/Header.jsx'
-import { Headline } from './components/Header/Headline.jsx'
-import { Experience } from './components/Experience/Experience.jsx'
-import { Tech } from './components/Technologies/Tech.jsx'
-import { Project } from './components/Projects/Project.jsx'
-import { Why } from './components/WorkWithMe/Why.jsx'
-import { Footer } from './components/Footer/Footer.jsx'
-import { LanguageProvider } from './components/Utils/LanguageContext.jsx'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './styles.css'
+import { LanguageProvider } from './components/Utils/LanguageContext'
+import { ScrollToTop } from './components/Utils/ScrollToTop'
+import { ReadingProgress } from './components/Utils/ReadingProgress'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
     <LanguageProvider>
-      <Header />
-      <Headline />
-      <Experience />
-      <Tech />
-      <Project />
-      <Why />
-      <Footer />
+      <ReadingProgress />
+      <App />
+      <ScrollToTop />
     </LanguageProvider>
-  </StrictMode>
+  </React.StrictMode>
 )
