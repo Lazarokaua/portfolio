@@ -3,22 +3,28 @@ import linkedIn from "../../assets/linkedInIcon.png"
 import gitHub from "../../assets/gitHubIcon.png"
 import instagram from "../../assets/instagramIcon.png"
 import { Line } from "../Utils/Line"
+import { translations } from "../Utils/Translation"
+import { useLanguage } from "../Utils/LanguageContext"
 
 export function Footer() {
+
+    const {language} = useLanguage();
+    const footerTexts = translations[language].footer
+
     return (
         <>
             <footer id="contact" className="px-6 py-4 flex flex-col gap-4">
                 <Line className="border-t border-gray-500" />
 
-                <h2 className="font-suisse font-bold text-center text-2xl tracking-wide">Let's talk?</h2>
+                <h2 className="font-suisse font-bold text-center text-2xl tracking-wide">{footerTexts.title}</h2>
 
                 <div className="flex flex-col gap-4">
                     <p className="text-gray-800 leading-relaxed">
-                        If you want to ask me any questions, feel free to connect with me on any of my networks!
+                        {footerTexts.msg}
                     </p>
 
                     <p className="text-gray-800 leading-relaxed">
-                        Say hello on <span className="underline cursor-pointer"><a href="https://www.linkedin.com/in/lazarokaua/">LinkedIn</a>!</span>
+                        {footerTexts.hello}<span className="underline cursor-pointer"><a href="https://www.linkedin.com/in/lazarokaua/">{footerTexts.span}</a>!</span>
                     </p>
                 </div>
 

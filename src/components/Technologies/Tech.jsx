@@ -7,12 +7,17 @@ import react from "../../assets/react-brands-solid.svg"
 import tailwind from "../../assets/TAILWIND.svg"
 import mongoDB from "../../assets/mongoDB.svg"
 import { Line } from "../Utils/Line"
+import { translations } from "../Utils/Translation"
+import { useLanguage } from "../Utils/LanguageContext"
 
 
 export function Tech(){
+
+    const {language} = useLanguage()
+    const techText = translations[language].tech
     return (
         <section className="px-6 py-4">
-            <h2 className="font-suisse font-bold text-center text-2xl tracking-wide mb-4">Technologies</h2>
+            <h2 className="font-suisse font-bold text-center text-2xl tracking-wide mb-4">{techText.title}</h2>
 
             <ul className="flex gap-4 flex-wrap justify-center pb-4">
                 <li><img src={html} className="w-14 hover:scale-110 transition-transform duration-200"/></li>

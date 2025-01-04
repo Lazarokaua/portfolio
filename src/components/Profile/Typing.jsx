@@ -29,8 +29,8 @@ export function Typing() {
     }, [language]); // Recria o efeito quando o idioma muda
 
     return (
-        <div className="flex p-4 mb-8 justify-center">
-            <h1 className="text-3xl font-bold font-suisse">
+        <div className="flex py-4  mb-8 justify-center">
+            <h1 className="text-2xl font-bold font-suisse">
                 <span>{typingTexts.toBe} </span>
                 <span ref={el} className="text-detail"></span> {/* Elemento vinculado ao Typed.js */}
             </h1>
