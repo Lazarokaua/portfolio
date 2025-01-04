@@ -10,7 +10,7 @@ export function Project() {
     return (
         <>
         <h2 className="font-suisse font-bold text-center text-2xl tracking-wide">Projects</h2>
-            <section className="px-6 py-4 lg:grid lg:grid-cols-3">
+            <section id="projects" className="px-6 py-4 lg:grid lg:grid-cols-3">
 
                 {/* ProjectCard */}
                 <ProjectCard

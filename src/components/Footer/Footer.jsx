@@ -7,7 +7,7 @@ import { Line } from "../Utils/Line"
 export function Footer() {
     return (
         <>
-            <footer className="px-6 py-4 flex flex-col gap-4">
+            <footer id="contact" className="px-6 py-4 flex flex-col gap-4">
                 <Line className="border-t border-gray-500" />
 
                 <h2 className="font-suisse font-bold text-center text-2xl tracking-wide">Let's talk?</h2>

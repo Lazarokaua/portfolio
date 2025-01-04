@@ -7,15 +7,18 @@ import { Tech } from './components/Technologies/Tech.jsx'
 import { Project } from './components/Projects/Project.jsx'
 import { Why } from './components/WorkWithMe/Why.jsx'
 import { Footer } from './components/Footer/Footer.jsx'
+import { LanguageProvider } from './components/Utils/LanguageContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <Header />
-  <Headline />
-  <Experience />
-  <Tech />
-  <Project />
-  <Why />
-  <Footer />
+    <LanguageProvider>
+      <Header />
+      <Headline />
+      <Experience />
+      <Tech />
+      <Project />
+      <Why />
+      <Footer />
+    </LanguageProvider>
   </StrictMode>
 )
