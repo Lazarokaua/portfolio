@@ -5,6 +5,7 @@ import nlw from "../../assets/nlw.png"
 import codigoCerto from "../../assets/codigoCerto.png"
 import chatGPT from "../../assets/chatGPT.png"
 import simmonGame from "../../assets/simmoGame.png"
+import deviceManagement from "../../assets/deviceManagement.png"
 import { translations } from "../Utils/Translation"
 import { useLanguage } from "../Utils/LanguageContext"
 
@@ -60,6 +61,13 @@ export function Project() {
                         image={simmonGame}
                         title={projectsTexts.titleProject6}
                         description={projectsTexts.description6}
+                    />
+
+                    <ProjectCard
+                        url="https://github.com/Lazarokaua/emprestimo-dispositivos"
+                        image={deviceManagement}
+                        title={projectsTexts.titleProject7}
+                        description={projectsTexts.description7}
                     />
                 </div>
             </div>

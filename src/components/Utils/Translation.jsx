@@ -29,6 +29,9 @@ export const translations = {
             titleProject5: "Clone-ChatGPT", description5: "This project is a clone of the ChatGPT interface, designed to demonstrate front-end web development skills. The project recreates the visual appearance and layout of OpenAI's famous chat interface.",
 
             titleProject6: "Welcome to Simon-game", description6: "memory game with colors in JavaScript!",
+
+            titleProject7: "Device Management System",
+            description7: "System developed with Google Apps Script for managing device loans to employees. Features include loan/return control, web interface, Excel report generation, and automatic dashboard updates. Built with JavaScript and Google Workspace integration.",
         },
         why: {
             title: "So why work with me?", paragraph1: "I am passionate about technology, focused on constantly learning and growing. I have already developed practical projects on the front-end with React and JavaScript, and I am expanding my skills to the back-end, always seeking to apply good practices and deliver efficient solutions.", paragraph2: "I am committed, adaptable and driven by challenges. More than a developer, I am someone who seeks to add value to the team and evolve together with the team. If you are looking for dedication and the desire to make a difference, rest assured, you just found it."
@@ -79,6 +82,9 @@ export const translations = {
             titleProject5: "Clone-ChatGPT", description5: "Este projeto é um clone da interface do ChatGPT, desenvolvido para demonstrar habilidades em desenvolvimento web front-end. O projeto recria a aparência visual e o layout da famosa interface de chat da OpenAI.",
 
             titleProject6: "Bem-vindo ao Simon-game", description6: "jogo da memória com cores em JavaScript!",
+
+            titleProject7: "Sistema de Gerenciamento de Dispositivos",
+            description7: "Sistema desenvolvido com Google Apps Script para gerenciar empréstimos de dispositivos para colaboradores. Funcionalidades incluem controle de empréstimo/devolução, interface web, geração de relatórios Excel e atualização automática do dashboard. Construído com JavaScript e integração com Google Workspace.",
         },
         why: {
             title: "Então, por que trabalhar comigo?", paragraph1: "Sou apaixonado por tecnologia, focado em aprender e crescer constantemente. Já desenvolvi projetos práticos no front-end com React e JavaScript, e estou expandindo minhas habilidades para o back-end, sempre buscando aplicar boas práticas e entregar soluções eficientes.", paragraph2: "Sou comprometido, adaptável e movido por desafios. Mais do que um desenvolvedor, sou alguém que busca agregar valor ao time e evoluir junto com a equipe. Se você procura dedicação e vontade de fazer a diferença, fique tranquilo(a), acabou de encontrar."
