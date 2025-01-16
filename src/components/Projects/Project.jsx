@@ -29,35 +29,35 @@ export function Project() {
                     />
 
                     <ProjectCard
-                        url="https://spotify-clone-five-neon.vercel.app/"
+                        url="https://clone-github-six.vercel.app/"
                         image={gitHub}
                         title={projectsTexts.titleProject2}
                         description={projectsTexts.description2}
                     />
 
                     <ProjectCard
-                        url="https://spotify-clone-five-neon.vercel.app/"
+                        url="https://nlw-expert-react-6mblnxt4w-lazarokauas-projects.vercel.app"
                         image={nlw}
                         title={projectsTexts.titleProject3}
                         description={projectsTexts.description3}
                     />
 
                     <ProjectCard
-                        url="https://spotify-clone-five-neon.vercel.app/"
+                        url="https://trilha-front-end-jr-jun-15-k44k.vercel.app/"
                         image={codigoCerto}
                         title={projectsTexts.titleProject4}
                         description={projectsTexts.description4}
                     />
 
                     <ProjectCard
-                        url="https://spotify-clone-five-neon.vercel.app/"
+                        url="https://clone-chat-gpt-chi.vercel.app/"
                         image={chatGPT}
                         title={projectsTexts.titleProject5}
                         description={projectsTexts.description5}
                     />
 
                     <ProjectCard
-                        url="https://spotify-clone-five-neon.vercel.app/"
+                        url="https://simon-game-xi-ten.vercel.app/"
                         image={simmonGame}
                         title={projectsTexts.titleProject6}
                         description={projectsTexts.description6}
