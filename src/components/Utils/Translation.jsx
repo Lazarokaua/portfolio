@@ -11,8 +11,8 @@ export const translations = {
             paragraph5: "Today, I have dedicated myself daily to transforming problems into solutions, bringing ideas into the world, presenting them, without shyness, but with a very clear objective. Be useful to someone.",
         },
         experience: {
-            title: "My Experience", alt1: "Logo Casas Bahia", position1: "Young Logistics Apprentice", time1: "Apr 2023 - The Moment", description1: "As a Young Apprentice in the Casas Bahia group, I gained valuable knowledge in the area, using my creativity, critical thinking, problem solving and more. I managed to develop my programming skills, which had a great influence on my development and learning.",
-            alt2: "Ciee Logo Company School Integration Center", position2: "CIEE Theoretical Training", time2: "Apr 2023 - The Moment", description2: "At the company-school integration center (CIEE), I obtained the skills needed for the job market, where I was able to grow and develop to meet the demands of the job market. A joint project with the Casas Bahia Group, to train young apprentices."
+            title: "My Experience", alt1: "Logo Casas Bahia", position1: "Young Logistics Apprentice", time1: "Apr 2023 - Mar 2025", description1: "As a Young Apprentice in the Casas Bahia group, I gained valuable knowledge in the area, using my creativity, critical thinking, problem solving and more. I managed to develop my programming skills, which had a great influence on my development and learning.",
+            alt2: "Ciee Logo Company School Integration Center", position2: "CIEE Theoretical Training", time2: "Apr 2023 - Mar 2025", description2: "At the company-school integration center (CIEE), I obtained the skills needed for the job market, where I was able to grow and develop to meet the demands of the job market. A joint project with the Casas Bahia Group, to train young apprentices."
         },
         tech: {
             title: "Technologies"
@@ -59,11 +59,11 @@ export const translations = {
             title: "Minha Experiência",
             alt1: "Logo Casas Bahia",
             position1: "Jovem Aprendiz em Logística",
-            time1: "Abr 2023 - Momento Atual",
+            time1: "Abr 2023 - Mar 2025",
             description1: "Como Jovem Aprendiz no grupo Casas Bahia, adquiri conhecimentos valiosos na área, utilizando minha criatividade, pensamento crítico, resolução de problemas e muito mais. Consegui desenvolver minhas habilidades em programação, o que teve grande influência no meu desenvolvimento e aprendizado.",
             alt2: "Logo do CIEE - Centro de Integração Empresa-Escola",
             position2: "Formação Teórica no CIEE",
-            time2: "Abr 2023 - Momento Atual",
+            time2: "Abr 2023 - Mar 2025",
             description2: "No centro de integração empresa-escola (CIEE), adquiri as habilidades necessárias para o mercado de trabalho, onde pude crescer e me desenvolver para atender às demandas do mercado. Um projeto conjunto com o Grupo Casas Bahia, para a formação de jovens aprendizes."
 
         },
